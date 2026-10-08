@@ -9,6 +9,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://primeparts-lime.vercel.app'),
   title: 'Prime Parts | Powering Performance. Built for Reliability.',
   description: 'Leading supplier and wholesale distributor of automotive spare parts, engine components, braking systems, suspension units, and heavy industrial assemblies.',
   keywords: [
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Prime Parts | Powering Performance. Built for Reliability.',
     description: 'Premier automotive spare parts company portfolio and wholesale distribution network.',
-    url: 'https://primeparts.in',
+    url: 'https://primeparts-lime.vercel.app',
     siteName: 'Prime Parts',
     images: [
       {
