@@ -9,7 +9,6 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://primeparts-lime.vercel.app'),
   title: 'Prime Parts | Powering Performance. Built for Reliability.',
   description: 'Leading supplier and wholesale distributor of automotive spare parts, engine components, braking systems, suspension units, and heavy industrial assemblies.',
   keywords: [
