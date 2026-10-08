@@ -92,7 +92,9 @@ export default function HeroSection({ onOpenVideoModal }: HeroSectionProps) {
             autoPlay
             loop
             muted={isMuted}
+            defaultMuted
             playsInline
+            preload="auto"
             poster={COMPANY_DATA.hero.fallbackPoster}
             className="w-full h-full object-cover object-center filter brightness-[0.92] contrast-100"
           >
