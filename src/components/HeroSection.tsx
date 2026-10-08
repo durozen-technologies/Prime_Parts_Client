@@ -92,7 +92,6 @@ export default function HeroSection({ onOpenVideoModal }: HeroSectionProps) {
             autoPlay
             loop
             muted={isMuted}
-            defaultMuted
             playsInline
             preload="auto"
             poster={COMPANY_DATA.hero.fallbackPoster}
